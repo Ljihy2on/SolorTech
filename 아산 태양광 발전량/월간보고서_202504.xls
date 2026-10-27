@@ -1,0 +1,351 @@
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>태양광 모니터링 시스템</title>
+<script language="javaScript" defer=true src="../inc/menu.js"></script>
+<script language="javaScript" defer=true src="../inc/common.js"></script>
+<SCRIPT LANGUAGE="Javascript" SRC="../inc/FusionCharts.js"></SCRIPT>
+<script language="javascript" src="../inc/Calendar.js"></script>
+<style type="text/css">
+<!--
+.style1 {font-weight: bold}
+td {font-size:12px; color: #666666; line-height: 15px;}
+-->
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form method="post" name="frmMain">
+<input type="hidden" name="objButnGb">
+<!--
+<table width="200" border="1">
+	<tr>
+		<td width="60" height="156" align="center">&nbsp;&nbsp;담&nbsp;당&nbsp;&nbsp;</td>
+		<td width="60" height="156" align="center">&nbsp;&nbsp;과&nbsp;장&nbsp;&nbsp;</td>
+		<td width="60" height="156" align="center">&nbsp;&nbsp;팀&nbsp;장&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td width="60" height="156">&nbsp;</td>
+		<td width="60" height="156">&nbsp;</td>
+		<td width="60" height="156">&nbsp;</td>
+	</tr>
+</table>
+//-->
+<table width="550" border="1" cellspacing="0" cellpadding="0" align="center">
+	<tr>
+		<td height="30" colspan="5" align="center" bgcolor="FFFFFF"><span class="style1">아산정수장 2차발전설비</span></td>
+	</tr>
+	<tr>
+		<td height="30" colspan="5" align="center" bgcolor="FFFFFF"><span class="style1">월간보고서</span></td>
+	</tr>
+	<tr>
+		<td height="30" colspan="5" align="center" bgcolor="FFFFFF"><div align="left" class="style1">발전년월 : <b>2025년4월</b></div></td>
+	</tr>
+
+	<tr>
+		<td height="30" colspan="3" align="center" bgcolor="FFFFFF"><div align="left" class="style1">전체발전용량 : 2132.10kWp</b></div></td>
+		<td height="30" colspan="2" align="center" bgcolor="FFFFFF"><div align="left" class="style1">장비구분 : 인버터 전체</b></div></td>
+	</tr>
+	<tr>
+		<td width="110" bgcolor="CCCCCC" height="30" align="center"><b>일(DD)</b></td>
+		<td width="110" bgcolor="CCCCCC" align="center"><b>발전량(kWh)</b></td>
+  		<td width="110" bgcolor="CCCCCC" align="center"><b>CO2저감량(KgCO2)</b></td>
+  		<td width="110" bgcolor="CCCCCC" align="center"><b>발전시간(h)</b></td>
+
+		<td width="110" bgcolor="CCCCCC" align="center"><b>비고</b></td>
+
+	</tr>
+
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>01</b></td>
+		<td width="110" align="right"><b>11,575.0</b></td>
+		<td width="110" align="right"><b>4,907.8</b></td>
+		<td width="110" align="right"><b>5.4</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>02</b></td>
+		<td width="110" align="right"><b>7,810.0</b></td>
+		<td width="110" align="right"><b>3,311.4</b></td>
+		<td width="110" align="right"><b>3.7</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>03</b></td>
+		<td width="110" align="right"><b>10,614.0</b></td>
+		<td width="110" align="right"><b>4,500.3</b></td>
+		<td width="110" align="right"><b>5.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>04</b></td>
+		<td width="110" align="right"><b>11,572.0</b></td>
+		<td width="110" align="right"><b>4,906.5</b></td>
+		<td width="110" align="right"><b>5.4</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>05</b></td>
+		<td width="110" align="right"><b>1,458.0</b></td>
+		<td width="110" align="right"><b>618.2</b></td>
+		<td width="110" align="right"><b>0.7</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>06</b></td>
+		<td width="110" align="right"><b>12,714.0</b></td>
+		<td width="110" align="right"><b>5,390.7</b></td>
+		<td width="110" align="right"><b>6.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>07</b></td>
+		<td width="110" align="right"><b>12,452.0</b></td>
+		<td width="110" align="right"><b>5,279.6</b></td>
+		<td width="110" align="right"><b>5.8</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>08</b></td>
+		<td width="110" align="right"><b>12,749.0</b></td>
+		<td width="110" align="right"><b>5,405.6</b></td>
+		<td width="110" align="right"><b>6.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>09</b></td>
+		<td width="110" align="right"><b>7,259.0</b></td>
+		<td width="110" align="right"><b>3,077.8</b></td>
+		<td width="110" align="right"><b>3.4</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>10</b></td>
+		<td width="110" align="right"><b>12,318.0</b></td>
+		<td width="110" align="right"><b>5,222.8</b></td>
+		<td width="110" align="right"><b>5.8</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>11</b></td>
+		<td width="110" align="right"><b>12,239.0</b></td>
+		<td width="110" align="right"><b>5,189.3</b></td>
+		<td width="110" align="right"><b>5.7</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>12</b></td>
+		<td width="110" align="right"><b>4,896.0</b></td>
+		<td width="110" align="right"><b>2,075.9</b></td>
+		<td width="110" align="right"><b>2.3</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>13</b></td>
+		<td width="110" align="right"><b>7,721.0</b></td>
+		<td width="110" align="right"><b>3,273.7</b></td>
+		<td width="110" align="right"><b>3.6</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>14</b></td>
+		<td width="110" align="right"><b>4,714.0</b></td>
+		<td width="110" align="right"><b>1,998.7</b></td>
+		<td width="110" align="right"><b>2.2</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>15</b></td>
+		<td width="110" align="right"><b>13,194.0</b></td>
+		<td width="110" align="right"><b>5,594.3</b></td>
+		<td width="110" align="right"><b>6.2</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>16</b></td>
+		<td width="110" align="right"><b>11,256.0</b></td>
+		<td width="110" align="right"><b>4,772.5</b></td>
+		<td width="110" align="right"><b>5.3</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>17</b></td>
+		<td width="110" align="right"><b>9,603.0</b></td>
+		<td width="110" align="right"><b>4,071.7</b></td>
+		<td width="110" align="right"><b>4.5</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>18</b></td>
+		<td width="110" align="right"><b>10,498.0</b></td>
+		<td width="110" align="right"><b>4,451.2</b></td>
+		<td width="110" align="right"><b>4.9</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>19</b></td>
+		<td width="110" align="right"><b>5,829.0</b></td>
+		<td width="110" align="right"><b>2,471.5</b></td>
+		<td width="110" align="right"><b>2.7</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>20</b></td>
+		<td width="110" align="right"><b>10,759.0</b></td>
+		<td width="110" align="right"><b>4,561.8</b></td>
+		<td width="110" align="right"><b>5.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>21</b></td>
+		<td width="110" align="right"><b>11,163.0</b></td>
+		<td width="110" align="right"><b>4,733.1</b></td>
+		<td width="110" align="right"><b>5.2</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>22</b></td>
+		<td width="110" align="right"><b>2,277.0</b></td>
+		<td width="110" align="right"><b>965.4</b></td>
+		<td width="110" align="right"><b>1.1</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>23</b></td>
+		<td width="110" align="right"><b>12,305.0</b></td>
+		<td width="110" align="right"><b>5,217.3</b></td>
+		<td width="110" align="right"><b>5.8</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>24</b></td>
+		<td width="110" align="right"><b>13,017.0</b></td>
+		<td width="110" align="right"><b>5,519.2</b></td>
+		<td width="110" align="right"><b>6.1</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>25</b></td>
+		<td width="110" align="right"><b>14,425.0</b></td>
+		<td width="110" align="right"><b>6,116.2</b></td>
+		<td width="110" align="right"><b>6.8</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>26</b></td>
+		<td width="110" align="right"><b>13,910.0</b></td>
+		<td width="110" align="right"><b>5,897.8</b></td>
+		<td width="110" align="right"><b>6.5</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>27</b></td>
+		<td width="110" align="right"><b>10,761.0</b></td>
+		<td width="110" align="right"><b>4,562.7</b></td>
+		<td width="110" align="right"><b>5.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>28</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>29</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" align="center"><b>30</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+		<td width="110" align="right"><b>0.0</b></td>
+
+		<td width="110" align="right"></td>
+	</tr>
+	
+	<tr>
+		<td width="110" height="30" bgcolor="CCCCCC" align="center"><b>합계</b></td>
+		<td width="110" align="right"><b>269.09 [MWh]</b></td>
+		<td width="120" align="right"><b>114.09 [TCO2]</b></td>
+		<td width="110" align="right"><b>126.2 [h]</b></td>
+		<td width="110" align="right"></td>
+	</tr>
+	<tr>
+		<td width="110" height="30" bgcolor="CCCCCC" align="center"><b>평균</b></td>
+		<td width="110" align="right"><b>9,966.2 [kWh]</b></td>
+		<td width="110" align="right"><b>4,225.7 [kgCO2]</b></td>
+		<td width="110" align="right"><b>4.7 [h]</b></td>
+		<td width="110" align="right"></td>
+	</tr>
+
+</table>
+</form>
+</body>
+</html>
+
